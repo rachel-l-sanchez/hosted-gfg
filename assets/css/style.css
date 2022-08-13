@@ -424,7 +424,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   min-width:50rem;
-  height: 100vh;
+  height: 45rem;
   background: #ffff;
 }
 
@@ -524,10 +524,9 @@ h6 {
   }
 }
 .hero_container {
-  position: relative;
   max-width: 100%;
   max-height: 750px; 
-  margin-top: 0 auto;
+  margin-top: 35%;
 }
 
 .hero_container .overlay {
