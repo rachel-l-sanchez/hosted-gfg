@@ -529,7 +529,7 @@ h6 {
 
 .container .overlay {
   position: absolute; 
-  bottom: 0; 
+  bottom: -5; 
   background: rgb(0, 0, 0);
   background: rgba(107, 105, 105, 0.5);
   color: #f4ebeb; 
@@ -537,6 +537,7 @@ h6 {
 }
 
 .overlay {
+  max-height: 25%;
   width: 80rem;
 }
 /*--------------------------------------------------------------
