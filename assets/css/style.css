@@ -428,9 +428,10 @@ h6 {
   background: #ffff;
 }
 
-#hero .container {
+#hero .hero_container {
   padding-top: 70px;
   position: relative;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 992px) {
@@ -450,7 +451,7 @@ h6 {
   z-index: 1;
 }
 
-#hero > .container > img {
+#hero > .hero_container > img {
   height: auto;
   height: 100vh;
   width: 80rem;
@@ -484,10 +485,10 @@ h6 {
   display: inline-block;
   padding: 12px 20px;
   border-radius: 50px;
-  margin-top: 30px;
+  margin-top: 400px;
   color: #fff;
   background: #0077b6;
-  margin-left: 45%;
+  margin-left: 0%;
 }
 
 #hero .btn-about:hover {
@@ -521,15 +522,17 @@ h6 {
     line-height: 24px;
   }
 }
-.container {
+.hero_container {
   position: relative;
-  max-width: 800px;
+  max-width: 100%;
+  max-height: 500px;
   margin: 0 auto; 
 }
 
-.container .overlay {
+.hero_container .overlay {
   position: absolute; 
-  bottom: -5; 
+  top: 40;
+  margin-top: 500px;
   background: rgb(0, 0, 0);
   background: rgba(107, 105, 105, 0.5);
   color: #f4ebeb; 
@@ -537,8 +540,9 @@ h6 {
 }
 
 .overlay {
-  max-height: 25%;
+  max-height: 40%;
   width: 80rem;
+  text-align: center;
 }
 /*--------------------------------------------------------------
 # Sections
@@ -1333,10 +1337,11 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #84e0f5;
-  padding: 30px 0;
+  padding: 50px 0;
   color: #222222;
   font-size: 14px;
   text-align: center;
+  margin-top: 120px;
 }
 
 #footer .credits {
