@@ -482,13 +482,12 @@ h6 {
   font-size: 12px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 12px 40px;
+  padding: 12px 20px;
   border-radius: 50px;
-  transition: 0.5s;
   margin-top: 30px;
   color: #fff;
   background: #0077b6;
-  margin-left: 25%;
+  margin-left: 45%;
 }
 
 #hero .btn-about:hover {
@@ -522,7 +521,24 @@ h6 {
     line-height: 24px;
   }
 }
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto; 
+}
 
+.container .overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(107, 105, 105, 0.5);
+  color: #f4ebeb; 
+  padding: 20px; /* Some padding */
+}
+
+.overlay {
+  width: 80rem;
+}
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
