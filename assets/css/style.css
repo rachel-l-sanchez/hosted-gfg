@@ -474,6 +474,7 @@ h6 {
   color: #caf0f8;
   margin: 10px 0 0 100;
   font-size: 22px;
+  text-align: center;
 }
 
 #hero .btn-about {
@@ -485,7 +486,7 @@ h6 {
   display: inline-block;
   padding: 12px 20px;
   border-radius: 50px;
-  margin-top: 400px;
+  margin-top: 20%;
   color: #fff;
   background: #0077b6;
   margin-left: 0%;
@@ -525,13 +526,13 @@ h6 {
 .hero_container {
   position: relative;
   max-width: 100%;
-  max-height: 500px;
+  max-height: 450px;
   margin: 0 auto; 
 }
 
 .hero_container .overlay {
   position: absolute; 
-  top: 40;
+  top: 100;
   margin-top: 500px;
   background: rgb(0, 0, 0);
   background: rgba(107, 105, 105, 0.5);
