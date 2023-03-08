@@ -1,0 +1,178 @@
+
+
+.container .world {
+    width: 200px;
+    height: 200px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+    @keyframes rotate{
+        from{ transform: rotate(360deg); }
+        to{ transform: rotate(-360deg); }}
+ 
+}
+
+.container {
+    position: absolute;
+    bottom: 12%;
+}
+
+
+#text-container {
+    color: green;
+    text-align: center;
+}
+
+#text {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
+@keyframes GFG {
+    0% {
+        transform: rotate(0deg) 
+              translateY(100px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) 
+              translateY(100px) rotate(-360deg);
+    }
+}
+
+
+.text-container {
+    position: relative;
+    width: 200px;
+    border-radius: 50%;
+    transform: rotate(-50deg);
+  }
+
+
+
+.box {
+    animation: rotate 1s linear;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+}
+
+#text-span {
+    padding-left: 20px;
+}
+
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+  .word1 {
+    transform: translate(20px, 85px) rotate(-30deg);
+}
+
+
+.word3 {
+    transform: translate(1px, 8px) rotate(-5deg);
+}
+
+.word5 {
+    transform: translate(-16px, 65px) rotate(20deg);
+}
+
+
+.word2 {
+    transform: translate(6px, 40px) rotate(-20deg);
+}
+
+
+.word4 {
+    transform: translate(-2px, 14px) rotate(10deg);
+}
+
+
+#text-span {
+    display: inline-block;
+}
+
+
+
+  
+  #text span{
+    min-width:0.5em;
+    text-align:center;
+    margin:0;
+  }
+
+  #text-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.box{
+    font-size: 3vmin;
+    font-family: 'cousine',monospace;
+    text-transform: uppercase;
+    animation: spin 14s linear infinite;
+    color: #bebbbc;
+    padding-top: 100px;
+    display: flex;
+    position: absolute; 
+    left: 35%;
+    top: 8%;
+    justify-content: flex-end;
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(-360deg) 
+              translateY(100px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) 
+              translateY(100px) rotate(-360deg);
+    }
+}
+
+
+.react-rotating-text-cursor {
+    animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+  }
+   
+  @keyframes blinking-cursor {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }

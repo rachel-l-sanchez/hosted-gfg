@@ -1,0 +1,113 @@
+.goTop {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-color: black;
+    background-color: black;
+}
+
+.scrollTop {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: 	#00FF00;
+    border: none;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
+  section {
+    padding-top: 500px;
+  }
+
+  .hero-container {
+    padding-top: 500px;
+    padding: 1em;
+    text-align: left;
+    line-height: 1.5em;
+  }
+
+  .hero-container p{
+    /* remove webkit p margins */
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }
+  .hero-container h1{
+    /* remove webkit p margins */
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }
+
+
+  .bgimage {
+    height:100vh;
+    background-size:cover;
+    position:relative;
+    padding-top: 200px;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 80%;
+}
+
+.hero-card-container {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+}
+
+#btn-click {
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+#btn-click:hover {
+  background-color: RoyalBlue;
+}
+
+.wrapper .hero-img{
+  background: rgb(5, 68, 104);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 225px;
+  height: 100%;
+  padding: 20px 0;
+  transition: all 0.5s ease;
+}
+
+.hero-text {
+  border: 2px solid white;
+}
